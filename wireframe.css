@@ -4364,12 +4364,12 @@ button.bg-success:focus {
   background-color: #1e7e34 !important; }
 
 .bg-info {
-  background-color: #8e8e8e !important; }
+  background-color: black !important; }
 
 a.bg-info:hover, a.bg-info:focus,
 button.bg-info:hover,
 button.bg-info:focus {
-  background-color: #757575 !important; }
+  background-color: black !important; }
 
 .bg-warning {
   background-color: #ffc107 !important; }
@@ -6446,36 +6446,43 @@ html, body, .container-1{
 
   .first-1 {
     float: left;
-    width: 30%;
+    width: 50%;
     height: 50%;
-    background-color: red;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .second-1 {
     float: left;
-    width: 30%;
+    width: 50%;
     height: 50%;
-    background-color: green;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .third-1 {
     float: right;
-    width: 70%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fourth-1 {
     float: right;
-    width: 35%;
-    height: 40%;
-    background-color: #DDDDDD;
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.last-1 {
-    float: right;
-    width: 35%;
-    height: 40%;
-    background-color: yellow;
-}
+
