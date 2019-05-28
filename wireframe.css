@@ -88,7 +88,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: BaronNeue;
+  font-family: "BaronNeue";
   font-size: 1rem;
   font-weight: 200;
   line-height: 1.5;
@@ -366,7 +366,7 @@ h6, .h6 {
 
 .display-1 {
   font-family: "a dripping marker";
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 300;
   line-height: 1.2;
   display: inline-block;
@@ -375,7 +375,7 @@ h6, .h6 {
 .display-11 {
   display: inline-block;
   font-family: Arial;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 300;
   line-height: 1.2; }
 
