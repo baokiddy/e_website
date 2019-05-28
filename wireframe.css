@@ -18,6 +18,18 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'BaronNeue';
+  src: url('static/assets/fonts/BaronNeue.eot');
+  src: url('static/assets/fonts/BaronNeue.eot?#iefix') format('embedded-opentype'),
+        url('static/assets/fonts/aBaronNeue.woff2') format('woff2'),
+        url('static/assets/fonts/BaronNeue.woff') format('woff'),
+        url('static/assets/fonts/BaronNeue.ttf') format('truetype'),
+        url('static/assets/fonts/BaronNeue.svg#adrippingmarker') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
@@ -76,7 +88,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: IBM Plex Sans;
+  font-family: BaronNeue;
   font-size: 1rem;
   font-weight: 200;
   line-height: 1.5;
@@ -95,6 +107,10 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.75rem; }
+
+.about {
+  font: "a dripping marker";
+}
 
 p {
   margin-top: 0;
@@ -350,7 +366,16 @@ h6, .h6 {
 
 .display-1 {
   font-family: "a dripping marker";
-  font-size: 10rem;
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  display: inline-block;
+ }
+
+.display-11 {
+  display: inline-block;
+  font-family: Arial;
+  font-size: 4rem;
   font-weight: 300;
   line-height: 1.2; }
 
@@ -6498,4 +6523,10 @@ html, body, .container-1{
     align-items: center;
 }
 
+.vim-video {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
