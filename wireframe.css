@@ -366,18 +366,55 @@ h6, .h6 {
 
 .display-1 {
   font-family: "a dripping marker";
-  font-size: 4rem;
-  font-weight: 300;
   line-height: 1.2;
   display: inline-block;
+  margin-right: 0.5rem;
  }
+ @media (min-width: 0px) {
+  .display-1 {
+    font-size: 3rem;
+    font-weight: 300;} }  
+@media (min-width: 576px) {
+  .display-1 { 
+    font-size: 3rem;
+    font-weight: 300;} }
+@media (min-width: 768px) {
+  .display-1 {
+    font-size: 3rem;
+    font-weight: 300; } }
+@media (min-width: 992px) {
+  .display-1 {
+    font-size: 3rem;
+    font-weight: 300;} }
+@media (min-width: 1200px) {
+  .display-1 {
+    font-size: 4rem;
+    font-weight: 300;; } }
 
 .display-11 {
   display: inline-block;
   font-family: Arial;
-  font-size: 4rem;
-  font-weight: 300;
   line-height: 1.2; }
+  @media (min-width: 0px) {
+    .display-11 {
+      font-size: 2rem;
+      font-weight: bolder;} }  
+  @media (min-width: 576px) {
+    .display-11 { 
+      font-size: 2rem;
+      font-weight: bolder;} }
+  @media (min-width: 768px) {
+    .display-11 {
+      font-size: 2rem;
+      font-weight: bold; } }
+  @media (min-width: 992px) {
+    .display-11 {
+      font-size: 3rem;
+      font-weight: 300;} }
+  @media (min-width: 1200px) {
+    .display-11 {
+      font-size: 4rem;
+      font-weight: 300;; } }
 
 .display-2 {
   font-size: 5.5rem;
@@ -443,23 +480,22 @@ mark,
   height: auto; }
 
 .img-fluid-1 {
-  width:30%;
+  max-width: 100%;
   height: auto; }
+  @media (min-width: 0px) {
+    .img-fluid-1 {
+      width: 80%;} }
   @media (min-width: 576px) {
     .img-fluid-1 {
-      max-width:540px;
       width: 50%;} }
   @media (min-width: 768px) {
     .img-fluid-1 {
-      max-width: 720px;
-      width: 50% } }
+      width: 40% } }
   @media (min-width: 992px) {
     .img-fluid-1 {
-      max-width: 960px;
       width: 40%;} }
   @media (min-width: 1200px) {
     .img-fluid-1 {
-      max-width: 1140px;
       width: 30% } }
 
 .img-thumbnail {
@@ -6530,35 +6566,49 @@ html, body, .container-1{
     align-items: center;
 }
 
-.vim-video {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.vim {
+  max-width: 100%;
+  max-height:100%;
 }
+@media (min-width: 0px) {
+  .vim {
+    height: auto; 
+    width:90%;} }
+@media (min-width: 576px) {
+  .vim { 
+    height: auto;
+    width:90%;} }
+@media (min-width: 768px) {
+  .vim {
+    height: 80%;
+    width:100%;} }
+@media (min-width: 992px) {
+  .vim {
+    height: 80%;
+    width:100%;} }
+@media (min-width: 1200px) {
+  .vim {
+    height: 80%;
+    width:100%; } }
 
 .bg-img {
+    max-width: 100%;
     background-image: url('static/assets/images/e.reid_main.jpeg');
     background-position: center; 
     background-repeat: no-repeat;
 }
 @media (min-width: 0px) {
-  .bg-img {
-    max-width: 100%; 
-    background-size: 70% 40%;} }
+  .bg-img { 
+    background-size: 80% 40%;} }
 @media (min-width: 576px) {
-  .bg-img {
-    max-width: 100%; 
+  .bg-img { 
     background-size: 50% 40%;} }
 @media (min-width: 768px) {
   .bg-img {
-    max-width: 100%;
     background-size: 50% 70%; } }
 @media (min-width: 992px) {
   .bg-img {
-    max-width: 100%; 
     background-size: 50% 70%;} }
 @media (min-width: 1200px) {
   .bg-img {
-    max-width: 100%;
     background-size: 50% 80%; } }
