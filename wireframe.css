@@ -442,6 +442,26 @@ mark,
   max-width: 100%;
   height: auto; }
 
+.img-fluid-1 {
+  width:30%;
+  height: auto; }
+  @media (min-width: 576px) {
+    .img-fluid-1 {
+      max-width:540px;
+      width: 50%;} }
+  @media (min-width: 768px) {
+    .img-fluid-1 {
+      max-width: 720px;
+      width: 50% } }
+  @media (min-width: 992px) {
+    .img-fluid-1 {
+      max-width: 960px;
+      width: 40%;} }
+  @media (min-width: 1200px) {
+    .img-fluid-1 {
+      max-width: 1140px;
+      width: 30% } }
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: white;
@@ -513,19 +533,6 @@ pre {
   @media (min-width: 1200px) {
     .container {
       max-width: 1140px; } }
-
-  @media (min-width: 576px) {
-    .tile {
-      max-width: 540px; } }
-  @media (min-width: 768px) {
-    .tile {
-      max-width: 720px; } }
-  @media (min-width: 992px) {
-    .tile {
-      max-width: 100%; } }
-  @media (min-width: 1200px) {
-    .tile {
-      max-width: 100%; } }
 
 .container-fluid {
   width: 100%;
@@ -6530,3 +6537,28 @@ html, body, .container-1{
     align-items: center;
 }
 
+.bg-img {
+    background-image: url('static/assets/images/e.reid_main.jpeg');
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+@media (min-width: 0px) {
+  .bg-img {
+    max-width: 100%; 
+    background-size: 70% 40%;} }
+@media (min-width: 576px) {
+  .bg-img {
+    max-width: 100%; 
+    background-size: 50% 40%;} }
+@media (min-width: 768px) {
+  .bg-img {
+    max-width: 100%;
+    background-size: 50% 70%; } }
+@media (min-width: 992px) {
+  .bg-img {
+    max-width: 100%; 
+    background-size: 50% 70%;} }
+@media (min-width: 1200px) {
+  .bg-img {
+    max-width: 100%;
+    background-size: 50% 80%; } }
