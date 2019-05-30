@@ -6578,19 +6578,19 @@ html, body, .container-1{
 }
 @media (min-width: 0px) {
   .bg-img { 
-    background-size: 80% 60%;} }
+    background-size: 80% auto;} }
 @media (min-width: 576px) {
   .bg-img { 
-    background-size: 50% 40%;} }
+    background-size: 50% auto;} }
 @media (min-width: 768px) {
   .bg-img {
-    background-size: 50% 70%; } }
+    background-size: 50% auto; } }
 @media (min-width: 992px) {
   .bg-img {
-    background-size: 50% 70%;} }
+    background-size: 50% auto;} }
 @media (min-width: 1200px) {
   .bg-img {
-    background-size: 50% 80%; } }
+    background-size: 50% auto; } }
 
 .s-fluid {
   width: 75%;
